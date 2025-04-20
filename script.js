@@ -1,11 +1,9 @@
-
-// Firebase config vai aqui
 const firebaseConfig = {
   apiKey: "AIzaSyB3eTZTBPLSAxcGrqHMBnIHSf1YSGHwyPg",
   authDomain: "perfume-misterioso.firebaseapp.com",
   databaseURL: "https://perfume-misterioso-default-rtdb.firebaseio.com",
   projectId: "perfume-misterioso",
-  storageBucket: "perfume-misterioso.firebasestorage.app",
+  storageBucket: "perfume-misterioso.appspot.com", // ✅ aqui está corrigido
   messagingSenderId: "618238888581",
   appId: "1:618238888581:web:8ba1a6f45b6b0cd59977ec"
 };
