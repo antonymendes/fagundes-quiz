@@ -1,12 +1,13 @@
 
 // Firebase config vai aqui
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO.firebaseapp.com",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_BUCKET.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyB3eTZTBPLSAxcGrqHMBnIHSf1YSGHwyPg",
+  authDomain: "perfume-misterioso.firebaseapp.com",
+  databaseURL: "https://perfume-misterioso-default-rtdb.firebaseio.com",
+  projectId: "perfume-misterioso",
+  storageBucket: "perfume-misterioso.firebasestorage.app",
+  messagingSenderId: "618238888581",
+  appId: "1:618238888581:web:8ba1a6f45b6b0cd59977ec"
 };
 
 firebase.initializeApp(firebaseConfig);
